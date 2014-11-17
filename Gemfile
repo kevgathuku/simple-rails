@@ -32,6 +32,8 @@ gem 'spring',        group: :development
 # Use unicorn as the app server
 # gem 'unicorn'
 
+gem 'dotenv-deployment'
+
 group :development do
   gem 'capistrano',  '~> 3.1'
   gem 'capistrano-bundler', '~> 1.1.2'

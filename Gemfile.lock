@@ -50,6 +50,9 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     colorize (0.7.3)
+    dotenv (1.0.2)
+    dotenv-deployment (0.2.0)
+      dotenv (~> 1.0)
     erubis (2.7.0)
     execjs (2.2.2)
     hike (1.2.3)
@@ -139,6 +142,7 @@ DEPENDENCIES
   capistrano-rails (~> 1.1)
   capistrano-rvm
   coffee-rails (~> 4.0.0)
+  dotenv-deployment
   jbuilder (~> 2.0)
   jquery-rails
   pg
