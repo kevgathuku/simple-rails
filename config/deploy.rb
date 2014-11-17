@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'simple_rails'
-set :repo_url, 'git@github.com:kevgathuku/simple-rails.git'
+set :repo_url, 'https://github.com/kevgathuku/simple-rails.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call

@@ -23,7 +23,7 @@ server '54.173.42.13', user: 'ubuntu', roles: %w{web app db}, my_property: :my_v
 # You may pass any option but keep in mind that net/ssh understands a
 # limited set of options, consult[net/ssh documentation](http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start).
 #
-# Global options
+#Global options
 # --------------
 #  set :ssh_options, {
 #    keys: %w(/home/rlisowski/.ssh/id_rsa),
