@@ -23,7 +23,7 @@ set :deploy_to, '/home/ubuntu/apps/simple_rails'
 # set :pty, true
 
 # Default value for :linked_files is []
-set :linked_files, %w{config/.env}
+# set :linked_files, %w{config/.env}
 
 # skip migration if files in db/migrate not modified
 set :conditionally_migrate, true
@@ -61,7 +61,7 @@ namespace :deploy do
 end
 
 namespace :dotenv do
-  desc "SCP transfer figaro configuration to the shared folder"
+  desc "SCP transfer dotenv configuration to the shared folder"
   task :setup do
     on roles(:app) do
       upload! "config/.env", "#{shared_path}/.env", via: :scp
